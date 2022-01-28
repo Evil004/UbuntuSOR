@@ -36,8 +36,8 @@ setfacl  -m g:g_explotacion:5 src
 setfacl -d -m g:g_explotacion:7 pruebas
 setfacl -m g:g_explotacion:7 pruebas
 
-setfacl -R -d -m other:1 /proyectos
-setfacl -R -m other:1 /proyectos
+setfacl -d -m other:1 /proyectos
+setfacl -m other:1 /proyectos
 
 
 
